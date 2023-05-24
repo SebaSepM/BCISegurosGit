@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" preserve-order="true">
+	<listeners>
+		<listener class-name="main.java.utils.GG_SuiteListener" /> <!-- Ruta de la clase Test -->
+	</listeners>
+	<test name="Southbridge Test Automation">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="test.java.carritocompras.CC_Test" /> <!-- Ruta de la clase Test -->
+		</classes>
+	</test>
+</suite>
